@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Jost&display=swap');
+
+/* Body
+Pick a nice background-color, font-family, color, font-size and line-height for the <body>. Setting these font rules at the body-level will apply them on all basic text tags (<p>, <li>, etc.). */
+body {
+  background-color:
+  #fbe8c8;
+  font-family: 'Jost', 'sans-serif';
+  color: #335861;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website (Medium, Airbnb, etc.), you’ll see that the font-size of their headers is quite small. */
+
+h1, h2, h3 {
+  font-size 30px;
+  line-height: 15px;
+  color: #00625e;
+  font-family: 'Averia Serif Libre', 'bold';
+  font-weight: 700;
+}
+
+/* Links
+Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover. */
+a {
+  text-decoration: none;font-family: 'Jost', 'sans-serif';
+  color: #9d5c8b;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(249, 248, 238)
+}
+
+/* Classes and IDs */
+.container {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fbf5e4;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #0f2d46;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.card-main {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+#pic-round {
+  width: 10em;
+  border-radius: 50%;
+}
+
+/* footer */
+footer svg:hover {
+  border-radius: 50%;
+  background: #912F56;
+  color: #EAF2EF;
+  cursor: pointer;
+}
+
+/* components */
+.btn-main {
+  padding: 14px 6px;
+  background: #9d5c8b;
+  color: #fbe8c8;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+.btn-main:hover {
+  background: #00625e;
+  color: #fbe8c8;
+  ;
+}
